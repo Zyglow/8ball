@@ -58,7 +58,6 @@ pName = getUserName()
 
 # The loop
 while (control > 0):
-    #answer = ''
     random_number = random.randint(1, 9)
     resp = theBall[random_number]
     playerQ = getQuestion()
@@ -66,7 +65,7 @@ while (control > 0):
     print("Magic 8-Ball's Answer: " + resp)
     print("\n")
     control = doquit()
-    #break
+    
 
 print("Thank you for playing " + pName )
 sys.exit()
